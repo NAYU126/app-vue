@@ -47,7 +47,7 @@
         </section>
 
         <div class="link-list">
-          <router-link to="/">Lesson</router-link>
+          <router-link to="/lesson">Lesson</router-link>
           <router-link to="/answer">Answer</router-link>
         </div>
 
@@ -63,12 +63,14 @@ export default {
   name: 'answer',
   data () {
     return {
+      // ここにかいてください。
     }
   },
-  // created () {
-
-  // },
+  created () {
+    // ここにかいてください。
+  },
   methods: {
+    // ここにかいてください。
   }
 }
 </script>
@@ -145,6 +147,7 @@ tbody > tr > td {
 }
 .link-list {
   display: flex;
+  margin-top: 60px;
   justify-content: space-between
 }
 

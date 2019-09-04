@@ -58,7 +58,10 @@
           </div>
         </section>
 
-        <p class="link"><router-link to="/question">Question</router-link></p>
+        <div class="link-list">
+          <router-link to="/">TOP</router-link>
+          <router-link to="/question">Question</router-link>
+        </div>
 
       </section>
     </div>
@@ -145,7 +148,9 @@ h3 {
 .red {
   color: red;
 }
-.link {
-  text-align: right;
+.link-list {
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between
 }
 </style>

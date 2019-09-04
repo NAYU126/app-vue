@@ -84,8 +84,8 @@
 </template>
 
 <script>
-
 import axios from 'axios'
+
 export default {
   name: 'answer',
   data () {
@@ -108,7 +108,6 @@ export default {
       this.list = res.data
     })
   },
-
   methods: {
     plusBtn () {
       this.counter++
@@ -127,7 +126,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h1,
 h2 {
