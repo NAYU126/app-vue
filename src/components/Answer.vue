@@ -198,6 +198,7 @@ tbody > tr > td {
   color: red;
 }
 .link {
+  margin-top: 60px;
   text-align: left;
 }
 </style>

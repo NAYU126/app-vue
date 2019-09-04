@@ -22,6 +22,7 @@ h1 {
 
 }
 .vue-img {
+  text-align: center;
   margin-bottom: 30px;
 }
 .link-btn {
