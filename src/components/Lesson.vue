@@ -122,6 +122,7 @@ h1 {
 }
 h2 {
   margin-bottom: 30px;
+  padding-bottom: 10px;
   text-align: left;
   font-weight: bold;
   border-bottom: 1px solid #d1d1d1;
